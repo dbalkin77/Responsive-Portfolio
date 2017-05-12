@@ -292,7 +292,7 @@ input[type=submit] {
     float: right;
     width: 100%;
     max-width: 768px;
-    padding: 33px;
+    padding: 33gpx;
     margin-bottom: 0;
     background: #fff;
     border: 1px solid #ddd;
@@ -307,6 +307,14 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
 
+  .container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    clear: both;
+
+  }
+  
   #logo {
     /*float: left;*/
     width: 100%;
